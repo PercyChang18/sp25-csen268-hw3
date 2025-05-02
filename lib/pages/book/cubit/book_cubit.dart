@@ -7,7 +7,7 @@ part 'book_state.dart';
 
 class BookCubit extends Cubit<BookState> {
   List<Book> books = [];
-  String sortBy = '';
+  String sortBy = 'author';
 
   BookCubit() : super(BookInitial());
 
